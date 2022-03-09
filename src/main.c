@@ -23,11 +23,11 @@ void print_list(List_t *list)
 
 int main(int argc, char **argv) {
 
-   
-
-      char *cmd;
+#if 0
+  	char *cmd;
       cmd = malloc(1024);
       sprintf(cmd, "%s", "  Eight  or  Eighteen    ");
+#endif
 
       List_t *list;
       list = list_init();
